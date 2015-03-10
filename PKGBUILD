@@ -11,10 +11,10 @@ license=('proprietary')
 depends=('ffmpeg-compat')
 makedepends=('pacman>=4.2.0')
 provides=("clickshare=$pkgver")
-source=("https://github.com/digi-merc/clickshare-arch/blob/master/clickshare-linux.tar.gz?raw=true")
+source=("https://cloud.digi-merc.org/index.php/s/HHz7qeT6LW1vp1L/download")
 sha256sums=('815f8e6fdc18ada70893a9eea8588a422c1904ec49ffd6af637cb6a0f011f14c')
 
 package() {
-	tar -xf clickshare-linux.tar.gz -C "$pkgdir/"
+	tar -xf download -C "$pkgdir/"
 }
 # vim:set ts=2 sw=2 et:
