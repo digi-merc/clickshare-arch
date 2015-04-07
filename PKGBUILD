@@ -12,7 +12,7 @@ depends=('ffmpeg-compat')
 makedepends=('pacman>=4.2.0')
 provides=("clickshare=$pkgver")
 source=("https://cloud.digi-merc.org/index.php/s/HHz7qeT6LW1vp1L/download")
-sha256sums=('3dfffc2edf25c705824ecedc7ad172c6dad190a298d66517a15eaad7563d27e4')
+sha256sums=('4dbbdd1404993b1cddca4f6fe86dcb4e6b3bb72fa54e02a4545bde21fa174e82')
 
 package() {
 	tar -xf download -C "$pkgdir/"
