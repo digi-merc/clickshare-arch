@@ -15,6 +15,6 @@ source=("https://raw.githubusercontent.com/digi-merc/clickshare-arch/master/clic
 sha256sums=('04ed7e6321f1a96316ef64e548d63df38fc727d0819b21bfc67102a6af3c8949')
 
 package() {
-	tar -xf download -C "$pkgdir/"
+	tar -xf clickshare-linux.tar.gz -C "$pkgdir/"
 }
 # vim:set ts=2 sw=2 et:
